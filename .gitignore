@@ -1,6 +1,7 @@
 # Archivos ejecutables
 *.out
 *.exe
+flor 
 
 # Archivos objeto
 *.o
