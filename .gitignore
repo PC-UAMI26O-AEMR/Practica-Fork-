@@ -1,4 +1,14 @@
-# Ignorar la carpeta de compilación entera
-bin/
+# Archivos ejecutables
+*.out
+*.exe
+
+# Archivos objeto
+*.o
+
+# Directorios de compilación
 build/
+bin/
+
+# Archivos temporales
+*.tmp
 
