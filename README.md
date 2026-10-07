@@ -10,14 +10,10 @@ Bibliotecas importantes
 
 ## wait() y exit()
 * `wait()` :  Le indica al proceso padre que espere a que uno de sus procesos hijos termine, la funcion puede recibe como parametro
-
-      *   `wait(NULL)` lo cual indica que no quieres la info sobre como termino
-  
-      * `wait(int *)` para obtener info  sobre còmo termino el hijo, si termino de forma normal, fue detenido por una señal o ocurrio `x` cosa .
-  
-      * `WIFEXITED(status)` : recibe un valor distinto de cero si el hijo terminò normalmente (es decir, con return o exit(), no por una señal)
-      * `WEXITSTATUS(staus)`: da el valor con el que termino el hijo. Solo tiene sentido consultar si WIFEXITED(stauts) fue distinto de cero
-  
+*   `wait(NULL)` lo cual indica que no quieres la info sobre como termino
+* `wait(int *)` para obtener info  sobre còmo termino el hijo, si termino de forma normal, fue detenido por una señal o ocurrio `x` cosa .  
+* `WIFEXITED(status)` : recibe un valor distinto de cero si el hijo terminò normalmente (es decir, con return o exit(), no por una señal)
+* `WEXITSTATUS(staus)`: da el valor con el que termino el hijo. Solo tiene sentido consultar si WIFEXITED(stauts) fue distinto de cero
 * `exit()` : Sirve para terminar el proceso de manera voluntaria, existen 256 valores que pueden terminar un proceso
    
 ## Comando para la visualizaciòn de la jerarquia de procesos 
