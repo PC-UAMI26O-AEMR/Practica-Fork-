@@ -1,6 +1,7 @@
 # Gestiòn de Procesos en C 
 se realizaron ejemplos practicos para la creacion, sincronizaciòn y comunicacion de procesos 
 en C utilizando llamadas al sistema con `fork()`,`wait()` y `exit()`
+
 Para la visualizacion de la jerarquia de procesos en tiempo de ejecucion usamos el comando 
 ```
 pstree -p $(pgrep -o nombre_archivo)
